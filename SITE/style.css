@@ -77,6 +77,10 @@ select {
     }
 }
 
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
 header {
     background-image: url("img/bg.png");
     background-size: 102.5%;
@@ -90,13 +94,11 @@ header {
     margin-left: auto;
     margin-right: auto;
     vertical-align: center;
-
 }
 
 
 nav a {
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
     font-size: 60px;
     font-weight: bold;
     color: #fff;
@@ -107,7 +109,6 @@ nav a {
 .nav_Deliver,
 .nav_Driver,
 nav button{
-    font-family: 'Poppins', sans-serif;
     font-size: 26px;
     font-weight: normal;
     color: #fff;
@@ -126,7 +127,7 @@ nav button{
 }
 
 .promo_text {
-    font-family: 'Poppins', sans-serif;
+
     color: #fff;
 }
 
@@ -179,7 +180,6 @@ nav button{
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
-    font-family: 'Poppins', sans-serif;
     color: #333;
 }
 
@@ -217,4 +217,51 @@ nav button{
 
 .mobile-app_wrapper {
     background-color: #e75b4c;
+    margin-top: 75px;
+}
+
+.mobile-app_container {
+    padding-top: 45px;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobile-app_headline {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.mobile-app_desc {
+    font-size: 24px;
+    font-weight: normal;
+    color: #fff;
+}
+
+.guide_container {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.guide_tip {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+.guide_icon {
+    margin-right: 15px;
+}
+
+.guide {
+    display: flex;
+}
+
+.mobile-app_description {
+    width: 690px;
+    text-align: center;
 }
