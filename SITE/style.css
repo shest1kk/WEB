@@ -77,12 +77,12 @@ select {
     }
 }
 
-.header_wrapper {
+header {
     background-image: url("img/bg.png");
     height: 979px;
 }
 
-.header_container {
+.header_wrapper {
     padding-top: 72px;
     width: Calc(90vw);
     margin-left: auto;
@@ -90,7 +90,6 @@ select {
     vertical-align: center;
 
 }
-
 
 
 nav a {
@@ -124,19 +123,51 @@ nav button{
     margin-left: 15px;
 }
 
-.nav_Driver {
-    margin-left: 410px;
-    height: 72px;
+.promo_text {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
 }
 
-.nav_Deliver, .nav_Business {
-    margin-left: 32px;
+.promo_info {
+    font-size: 60px;
+    font-weight: bold;
 }
 
-.Login {
-    margin-left: 45px;
+.promo_desc {
+    font-size: 24px;
+    font-weight: normal;
 }
 
-.Register {
-    margin-left: 20px;
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_links {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    align-items: center;
+}
+
+.promo_text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.promo_wrapper {
+    width: 90vw;
+    margin-top: 180px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+.promo_desc {
+    width: 600px;
 }
